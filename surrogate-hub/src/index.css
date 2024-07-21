@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  color: #000000;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-pink {
+  background-color: #fc6c85;
+}
+
+.bg-pink-1 {
+  background-color: #f36196;
+}
+
+.bg-pink-2 {
+  background-color: #FBB09080;
+}
+
+.bg-pink-1:hover {
+  background-color: #fc6c85;
+}
+
+.pink {
+  color: #f36196;
+}
+
+/* ------Navbar Css------ */
+.active-link {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #ffd7e9;
+}
+
+/* ------Home Css------ */
+.bg-trans-black {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* ------Advice Css------ */
+.nav-link {
+  color: #ffff;
+  background-color: #fc6c85;
+  margin-right: 1rem;
+}
+.nav-link:hover {
+  color: #ffff;
+}
+
+/* ------Application css------- */
+.step-indicator {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.step {
+  position: relative;
+  flex: 1;
+  padding: 10px 20px;
+  text-align: center;
+  color: #6c757d;
+}
+
+.step .step-number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  color: #6c757d;
+  font-weight: bold;
+}
+
+.step.active {
+  color: #fc6c85;
+}
+
+.step.active .step-number {
+  background-color: #fc6c85;
+  color: white;
+}
+
+.error-border {
+  border: 1px solid red;
+}
