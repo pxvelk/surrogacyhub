@@ -2,14 +2,14 @@ import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 import hands from "../images/hands.png";
 import { useState } from "react";
 
-const understadningSurrogacy = ["vSCiyI-6Ru0", "RYeTECmjKtg", "auHdEjXpXtE"];
+const understandingSurrogacy = ["vSCiyI-6Ru0", "RYeTECmjKtg", "auHdEjXpXtE"];
 
 const medicalProcedures = ["auHdEjXpXtE", "stfyXb9wzHY", "rSsinwxwDCo"];
 
 const choosingtheRightSurrogate = ["RQ6DKyq7sQg", "Ytx7sGZE064", "-jfZ1lUHN2c"];
 
 const ExpertAdvice = () => {
-  const [key, setKey] = useState("understadningSurrogacy");
+  const [key, setKey] = useState("understandingSurrogacy");
 
   return (
     <div>
@@ -47,12 +47,12 @@ const ExpertAdvice = () => {
 
         <Tabs activeKey={key} onSelect={(k) => setKey(k)} className="mt-5">
           <Tab
-            eventKey="understadningSurrogacy"
+            eventKey="understandingSurrogacy"
             title="Understanding Surrogacy"
             className="mt-5"
           >
             <Row>
-              {understadningSurrogacy.map((item) => (
+              {understandingSurrogacy.map((item) => (
                 <Col md={4}>
                   <iframe
                     height="315"
