@@ -48,7 +48,7 @@ const ExpertAdvice = () => {
         <Tabs activeKey={key} onSelect={(k) => setKey(k)} className="mt-5">
           <Tab
             eventKey="understadningSurrogacy"
-            title="Understadning Surrogacy"
+            title="Understanding Surrogacy"
             className="mt-5"
           >
             <Row>
